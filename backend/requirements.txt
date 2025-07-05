@@ -1,0 +1,11 @@
+flask
+flask-cors
+transformers
+torch
+spacy
+pytesseract
+Pillow
+nltk
+python-dotenv
+groq
+gdown
