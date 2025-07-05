@@ -28,7 +28,7 @@ if not api_key:
 client = Groq(api_key=api_key)
 
 # Flask App Init
-app = Flask(__name__, static_folder="../client/build", static_url_path="/")
+app = Flask(__name__, static_folder="frontend/build", static_url_path="/")
 CORS(app)
 
 # === 🔽 Download & Load Models from Google Drive ===
