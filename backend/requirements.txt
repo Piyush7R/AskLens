@@ -9,3 +9,4 @@ nltk
 python-dotenv
 groq
 gdown
+gunicorn
